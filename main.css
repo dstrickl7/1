@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/*.header{
+    border-bottom: 1px solid black;
+}*/
+
+
+
+.jumbotronPokemon{
+    background-image: url("pokemon.png");
+    height:25em;
+    margin-bottom: 0;
+    
+     
+}
+
+.jumbotronABBA{
+    background-image: url("ABBA.jpg");
+    height:25em;
+    margin-bottom: 0;
+   
+}
+
+.jumbotronFrance{
+    background-image: url("flag.jpg");
+    height:25em;
+    margin-bottom: 0;
+}
+
+.jumbotron{
+    
+     background-size: 100% 100%;
+     background-position: center center;    
+}
+
+.luna{
+     margin: auto;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+.bandName{
+    padding:0;
+    height:100px;
+    width:100%;  
+}
+
+.vulpix{
+   /* margin: auto;
+    padding:0;
+    height:15em;
+    width:17em;
+   */
+        display: block;
+    margin: auto;
+    width: 17em;
+}
+
+
+.navigation{
+  text-align: center;
+  z-index: 999;
+  width: 100%;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+nav.navbarHome{
+     
+    background:#94EF8F;
+    border: 5px outset #1B8955;
+}
+
+button.homeButton{
+    
+}
+
+nav.navbarABBA{
+   background: -webkit-linear-gradient(#b6b7ba, #666768);;
+  border: 5px outset #000;
+}
+
+button.ABBAButton{
+    
+}
+
+nav.navbarPokemon{
+    background: #efd24f;
+    border: 5px outset #2f599e;
+}
+
+button.pokeButton{
+    background: url("pokeball.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+nav.navbarFrance{
+    background: -webkit-linear-gradient(left, blue, white, red);
+}
+
+button.franceButton:visited{
+    color: red;
+}
+
+.navlist li {
+    margin: .5em;
+    display: inline;
+    background: -webkit-linear-gradient(#666666, #babbbc);
+    border: 4px outset;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navlist a{
+
+    color: black;
+    padding:10px 5px;
+}
+
+.navlistHome li{
+    font: black;
+    display: inline;
+    margin: .5em;
+    border: 4px outset #1B8955;
+    background: #94EF8F;
+}
+
+.navlistABBA li{
+    display: inline;
+    margin: .5em;
+    background: -webkit-linear-gradient(#b6b7ba, #666768);
+    border: 3px solid #000;
+}
+
+.navlistPokemon li{
+    display: inline;
+    margin: .5em;
+    background: #efd24f;
+    border: 4px outset #2f599e;
+}
+
+.navlistFrance li{
+    display: inline;
+    margin: .5em;
+    background: -webkit-linear-gradient(left, blue, white, red);
+    border: 4px outset;
+}
+ 
+a:visited{
+    color: black;
+}
+
+.songs li{
+    
+}
+
+.container{
+    
+}
+
+.backgroundHome{
+     background: -webkit-linear-gradient( #94EF8F, #1B8955);
+}
+
+.column{
+    margin: .01em;
+}
+
+footer{
+    border-top: 1px solid black;
+    background: -webkit-linear-gradient(#babbbc, #000000);
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+        
+}
